@@ -1,8 +1,87 @@
-/*
-Colors:
 
-Text: 1A1A1A
+/* Colors:
+
+/*  */
+
+body {
+    font-family: 'proxima-nova', sans-serif;
+    color: 1A1A1A;
+    margin: 0;
+    padding: 0;
+}
+
+.basic-spacing {
+    margin: 50px 10% 50px 10%;
+    padding: 100px 10% 100px 10%
+}
+
+/* Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF */
 
-*/
+ /* Header settings */
+
+nav {
+    height: 120px;
+    position: fixed;
+    width: 100%;
+    background-color:white;
+}
+
+ .navigation {
+    list-style-type: none;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+ }
+
+ .links {
+    display:flex;
+    flex-direction: row; 
+    justify-content: right;
+ }
+
+ .navigation > li {
+    margin-left: 50px;
+    margin-right: 50px;
+ }
+
+/* Main Body */
+
+ .landing-info {
+     background-image: url(/images/landing.jpg);
+     background-size: cover;
+     height: 600px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     color: white;
+ }
+
+ h1 {
+     font-size: 400%;
+ }
+
+/* Block TWO */
+
+.information {
+    display: flex;
+    flex-direction: row;
+}
+
+ .info-logos {
+     height: 100px;
+ }
+
+ h2 {
+     text-align: center;
+ }
+
+
+ /* Block THREE */
+
+ 
